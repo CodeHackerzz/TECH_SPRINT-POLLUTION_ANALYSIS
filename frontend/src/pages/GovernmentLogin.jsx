@@ -21,7 +21,7 @@ export default function GovernmentLogin() {
           Secure command center login
         </p>
 
-        {/* EMAIL */}
+        {}
         <input
           type="text"
           placeholder="Government Email"
@@ -32,7 +32,7 @@ export default function GovernmentLogin() {
                      focus:shadow-[0_0_15px_#10b981]"
         />
 
-        {/* PASSWORD */}
+        {}
         <input
           type="password"
           placeholder="Password"
