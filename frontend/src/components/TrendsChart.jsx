@@ -10,7 +10,7 @@ import {
 import { motion } from "framer-motion";
 
 export default function TrendsChart({ data }) {
-  // Find first dangerous AQI hour
+ 
   const dangerPoint = data.find(d => d.aqi >= 150);
 
   return (
@@ -51,7 +51,7 @@ export default function TrendsChart({ data }) {
               }}
             />
 
-            {/* AQI LINE WITH SMART COLOR */}
+            {}
             <Line
               type="monotone"
               dataKey="aqi"
@@ -66,7 +66,7 @@ export default function TrendsChart({ data }) {
               }
             />
 
-            {/* WHEN DANGER STARTED */}
+            {}
             {dangerPoint && (
               <ReferenceLine
                 x={dangerPoint.hour}
