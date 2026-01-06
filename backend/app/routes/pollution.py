@@ -3,7 +3,7 @@ import requests
 
 router = APIRouter(prefix="/pollution", tags=["pollution"])
 
-# 🔑 AQICN API TOKEN
+
 AQICN_TOKEN = "709faf0abb6a700303678f2e4f26500e4a7b2140"
 
 @router.get("/live")
