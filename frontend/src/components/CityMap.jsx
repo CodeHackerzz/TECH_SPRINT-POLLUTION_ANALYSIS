@@ -78,7 +78,7 @@ export default function CityMap({ onWardSelect }) {
               </div>
             `);
 
-            // ✅ ONLY NEW LINE (NO UI CHANGE)
+            
             layer.on("click", () => {
               onWardSelect({
                 ward: feature.properties.ward || "Unknown Ward",
