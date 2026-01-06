@@ -28,7 +28,7 @@ def get_real_aqi():
         elif m["parameter"] == "no2":
             no2 = round(m["value"])
 
-    # Simple AQI approximation for MVP
+    
     aqi = max(pm25 or 0, pm10 or 0, no2 or 0)
 
     return {
